@@ -1,2 +1,0 @@
-# HouseTrading
-Our Future Company!
