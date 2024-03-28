@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<title>Login Page </title>
+</head>
+
+
+<h2>LOGIN</h2>
+<hr/>
+<table>
+<tr>
+<td>
+<form action="fast.html">
+<style ="background-color":green>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Temesgen"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Teresa"><br><br>
+  <input type="submit" value="Submit"></td>
+<img src = "pp.avif" width = "100" heght = "100">
+<tr/>
+
+</form> 
+</body>
+</html>
