@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+   
+    color: #fff;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    
+
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+    
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    
+}
+body{
+    align-items: center;
+    
+    text-align: center;
+}
+body h1{
+    color: #fff;
+    margin-top: 15px;
+}
+body h2{
+    color: #fff;
+    text-align: left;
+    margin: 15px 15px 15px 15px;
+}
+body h3{
+    color: goldenrod;
+}
+body h4{
+    color: cyan;
+}
+body p{
+    color: #fff;
+}
+.wrapper{
+    width: 90%;
+    height: 300px;
+    background: transparent;
+    align-content: center;
+    margin: 30px 30px 30px 70px;
+    
+    border-radius: 20px;
+    color: #fff;
+    padding: 30px 40px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+.wrapper .btn{
+    width: 50%;
+    height: 40px;
+    background: #6b6b6b;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.wrapper .form1{
+    margin: 20px 10px;
+    
+
+}
+.wrapper .form2{
+    margin: 20px 10px;
+}
+.wrapper .form3{
+    margin: 20px 0;
+}
+.wrapper .form4{
+    margin: 20px 0;
+}
+.wrapper .form5{
+    margin: 30px 0;
+}
+.form1 input{
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+    
+}
+.form2 input{
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+    
+}
+.form3 input{
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: #fff;
+    text-align: center;
+    
+}
+footer{
+    background: #fff;
+    text-align: center;
+    
+}
+footer p{
+    color: black;
+    font-weight: 400;
+}
+
