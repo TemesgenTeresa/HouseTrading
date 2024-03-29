@@ -8,7 +8,8 @@
     <style>
 body {
     background-image:url(pic/bg5.png);
-        background-blend-mode: darken;       
+        background-blend-mode: darken;
+        background-attachment: fixed;       
 }
 table {
     color: rgb(240, 16, 16);
@@ -31,32 +32,52 @@ h1,h2{ color:brown;
 <form style="color: goldenrod;" name = "form1" action = "login.html" >
     <table>
         <tr>
-        
-<td>Trader's First Name: <input type ="text" name="txtFirstName" value=""/></td>
-<td>Trader's Last Name: <input type ="text" name="txtFirstName" value=""/></td>
-<td>Trader's Grand Name: <input type ="text" name="txtFirstName" value=""/></td>
+        <td> <label for="FirstName">Trader's FirstName:</label></td>
+<td> <input type ="text"id="FirstName" name="FirstName" required></td><br>
+<td><label for="lastname">Traders Lastname:</label></td>
+<td> <input type ="text" id=" trader's lastname" name="Trader lastname" required></td><br>
+<Td><label for="grand name"> Grand Name:</label></Td>
+<td> <input type ="text" id="grandname" name="grandname" required></td><br>
         </tr>
         <tr>
-            <td>Trader's Address line 1: <input type ="text" name="txtFirstName" value=""/></td>
-            <td>Trader's Address line 2: <input type ="text" name="txtFirstName" value=""/></td>
-            <td>Trader's Phone Number: <input type ="text" name="txtFirstName" value=""/></td>
+            <td><label for="Address 1"> Trader's address 1:</label></td>
+            <td> <input type ="text" id="FirstName" name="FirstName" required></td><br>
+            <td><label for="Address line 2"> Traders Addres Line 2:</label></td>
+            <td> <input type ="text" id="FirstName" name="FirstName" required></td><br>
+            <td><label for="phone Number"> Traders  phonenumber</label></td>
+            <td><input type ="text" id="phonenumber" name="phonenumber" required></td><br>
             </tr>
         <tr>
-<td>Trader's Nationality: <input type ="text" name="txtFirstName" value=""/></td>
-<td>Trader's Born Place: <input type ="text" name="txtFirstName" value=""/></td>
+            <td><label for=" Nationality"> Traders Nationality</label></td>
+<td> <input type ="text" id="Nationality" name="Nationality" required></td><br>
+<td><label for="Born Place"> Traders Born Place</label></td>
+<td> <input type ="text" id="Bornplace" name="Bornplace" required></td><br>
+<label for="email">email:</label>
+<td> <input type="email" id="email" name="email" required></td><br>
 </tr>
 <tr>
-
-<td>Gender :<input type ="radio" name ="gender" value=""/>Male</td>
-<td><input type ="radio" name ="gender" value=""/>Female</td>
+<td> <label for="gender">Gender:</label></td>
+<Select id="gender" name="gender" required>
+    <option value="male">Male</option>
+    <option value="Female">Female</option>
+    <option value="other">Other</option>
+</Select>
+</td>
 </tr>
 <tr>
 
 <td>Martial Status:<input type ="radio" name="m" value=""/>Single
 <input type ="radio" name="m" value=""/>Married 
 <input type ="radio" name="m" value=""/>Divorced</td>
-<td><input type = "submit" name="btnSubmit" value="Register"></td>
+<label for="design">design perefence:</label>
+<td> <input type="text" id="design" name="design" required></td><br>
+<Label for="loction">loction:</Label>
+<td>loction: <input type="text" id="loction"name="loction" required><br>
+</td>
+    <td><input type = "submit" name="btnSubmit" value="Register"></td><br>
+
 </tr>
+</td>
 <table>
 <tr>
 <td><h4>About</h4>
