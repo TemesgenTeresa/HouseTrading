@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:gray;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: greenyellow;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"], input[type="password"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        input[type="submit"] {
+            background-color:green;
+            color: black;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Login Form</h2>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
+        
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
