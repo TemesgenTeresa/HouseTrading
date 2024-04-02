@@ -1,0 +1,121 @@
+body{
+    container: 75%;
+    background-image: url(../Image/bg5c.png);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-color:white;
+
+}
+footer {
+background-color: #333;
+color:#fff;
+text-align:center;
+padding:20px;
+position:bottom;
+bottom:0;
+width:100%;
+height: 50px;
+font-size:10px;
+
+}
+
+h1 {
+color:goldenrod;
+margin-top: 29px;
+}
+div {
+margin:0;
+border-color:blueviolet;
+}
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+overflow-x: hidden; /* horizontal scrollbar mekelekliln */
+}
+
+#navbar {
+width: 250px;
+height: 73vh;
+background-image:url(Image/bg5c\ rotated.png);
+position:absolute;
+margin-top:150px;
+background-repeat: no-repeat;
+top: 0;
+left: -250px;
+
+transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+z-index: 1; /* navigation stays above other content like wada wusx gebto disturb endayreg */
+}
+
+#navbar ul {
+list-style-type: none;
+padding: 0;
+}
+
+#navbar li {
+padding: 20px;
+}
+
+#navbar a {
+text-decoration: none;
+color: white;
+}
+
+#toggleBtn {
+display: none; /* Hide Z checkbox boom hide yaregal */
+}
+
+/* Style  the label mode yesetewal..... to resemble a button */
+label {
+display: block;
+background-image:url(Image/bg5c\ rotated.png);
+color: white;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+/* When the checkbox is checked clicked, slide in the navigation bar */
+#toggleBtn:checked ~ #navbar {
+left: 0;
+}
+
+/* Push or endemegfat ngr the content when navigation is open  */
+#toggleBtn:checked ~ #content {
+margin-left: 350px;
+}
+
+/* Make the navigation bar close when clicking on content */
+#content {
+transition: margin-left 0.3s ease;
+}
+
+#content:target {
+margin-left: 0;
+}
+
+.back-section {
+width:70px;
+padding: 20px;
+background-color: #f0f0f0;
+cursor: pointer;
+}
+
+.back-section:hover {
+background-color: #ddd;
+}
+
+
+.button {
+display: inline-block;
+padding: 10px 20px;
+text-decoration: none;
+color: #fff;
+background-color: #007bff; /* Button background color yhe see more yemelewun  */
+border-radius: 5px; /* Rounded corners */
+transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover effect */
+.button:hover {
+background-color: #0056b3; /* Darker background color on hover */
+}
