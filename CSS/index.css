@@ -36,7 +36,7 @@ overflow-x: hidden; /* horizontal scrollbar mekelekliln */
 #navbar {
 width: 250px;
 height: 73vh;
-background-image:url(Image/bg5c\ rotated.png);
+background-image:url(../Image/bg5c\ rotated.png);
 position:absolute;
 margin-top:150px;
 background-repeat: no-repeat;
