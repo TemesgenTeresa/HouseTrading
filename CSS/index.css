@@ -37,10 +37,11 @@ overflow-x: hidden; /* horizontal scrollbar mekelekliln */
 width: 250px;
 height: 73vh;
 background-image:url(../Image/bg5c\ rotated.png);
-position:absolute;
+position:absolute; 
 margin-top:150px;
 background-repeat: no-repeat;
 top: 0;
+display: inline-block;
 left: -250px;
 
 transition: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -67,7 +68,7 @@ display: none; /* Hide Z checkbox boom hide yaregal */
 
 /* Style  the label mode yesetewal..... to resemble a button */
 label {
-display: block;
+display:block;
 background-image:url(Image/bg5c\ rotated.png);
 color: white;
 padding: 10px 20px;
