@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+   
+   color: #fa562d;
+    margin: 0;
+    padding: 0;
+    background-color: #276086;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    
+}
+h1, h2, h3,h4,h5,h6,h7,h8 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7a82ef;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.service {
+    background-color: #dfdeec;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #1e25337c(43, 38, 42, 0.1);
+}
+
+.service h1 {
+    color: #007bff;
+}
+.service h2 {
+    color: #007bff;
+}
+.service h3 {
+    color: #007bff;
+}
+.service h4 {
+    color: #007bff;
+}
+.service h5 {
+    color: #007bff;
+}
+.service h6 {
+    color: #007bff;
+}
+.service p {
+    color: #666;
+}
+div:hover {
+    box-shadow: #666;
+}
