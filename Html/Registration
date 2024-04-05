@@ -14,7 +14,7 @@
     <body>
         <section>
         <h1>Traders Home Registration</h1>
-<form style="color: black;" name = "form1" action = "login.html"  >
+<form style="color: black;" name = "form1" action = "../Html/login.html"  >
         <form action="/submit_registration" method="post">
            <tr>
              <div>
